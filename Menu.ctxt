@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Menu()
+comment0.text=\n\ Constructs\ a\ Menu.\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Runs\ every\ frame.\ Checks\ for\ key\ input.\n
+numComments=2

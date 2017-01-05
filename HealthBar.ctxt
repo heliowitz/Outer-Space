@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=topHP\ currHP\ tracked
+comment0.target=HealthBar(int,\ int,\ greenfoot.Actor)
+comment0.text=\n\ Constructs\ a\ new\ HealthBar\ based\ on\ the\ max,\ current\ health\ and\ the\ tracked\ actor\ target\n\ \n\ @param\ topHP\ \ \ \ \ \ maximum\ HP\ of\ the\ target\n\ \n\ @param\ currHP\ \ \ \ current\ HP\ of\ the\ target\n\ \n\ @param\ tracked\ \ \ actor\ being\ tracked\ \n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Every\ act,\ HealthBar\ will\ reset\ its\ location\ based\ on\ the\ location\ of\ the\ target\ with\ a\ slight\ shift\n\ If\ the\ target\ isn't\ there,\ remove\ the\ HealthBar\n
+comment2.params=changeHP
+comment2.target=void\ update(int)
+comment2.text=\n\ Updates\ the\ HP\ bar\ based\ on\ any\ desired\ changes\ in\ the\ HP\n\ Will\ redraw\ the\ bar\ based\ on\ changes\ in\ the\ current\ HP\ and\ changes\ in\ percentages\ of\ curr\ /\ max\ HPs\n\ sets\ new\ image\ to\ bar\n\ \n\ @param\ changeHP\ \ \ \ \ \ the\ desired\ change\ in\ HP\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ a\ positive\ value\ means\ an\ increase\ in\ HP,\ a\ negative\ value\ means\ a\ decrease\n
+comment3.params=
+comment3.target=double\ getHealth()
+comment3.text=\n\ sends\ out\ the\ current\ health\ of\ the\ actor\n\ \n\ @return\ double\ \ \ \ \ \ \ the\ health\ of\ the\ actor\n
+numComments=4

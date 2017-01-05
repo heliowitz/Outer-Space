@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=owner\ maxHP
+comment0.target=Satellite(Planet,\ int)
+comment0.text=\n\ constructs\ a\ satellite\ which\ will\ orbit\ around\ the\ planet\ and\ shoot\ at\ enemies\n\ \n\ @param\ owner\ \ \ \ \ the\ Planet\ the\ satellite\ belongs\ to\n\ \n\ @\ param\ maxHP\ \ \ \ \ \ \ \ the\ maximum\ HP\ the\ satellite\ can\ have\ \n
+comment1.params=w
+comment1.target=void\ addedToWorld(greenfoot.World)
+comment1.text=\n\ adds\ healthbar\ to\ world\n\ \n\ @param\ w\ \ \ \ \ the\ world\ to\ add\ to\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Does\ whatever\ is\ necessary\ that\ the\ Satellite\ wants\ to\ do\n\ Will\ orbit\ the\ center\ of\ the\ orbit\ and\ will\ orbit\ around\ that\ center\n\ Will\ also\ detect\ enemies\ and\ will\ shoot\ at\ them\n\ Will\ upgrade\ is\ appropriate\ \n
+comment3.params=length
+comment3.target=void\ orbit(int)
+comment3.text=\n\ Will\ orbit\ the\ satellite\ around\ the\ center\n\ \n\ @param\ length\ \ \ \ \ \ \ \ the\ radius\ of\ the\ orbit\ desired\n
+comment4.params=newX\ newY
+comment4.target=void\ updateCenter(int,\ int)
+comment4.text=\n\ updates\ the\ center\ of\ the\ orbit\n\ \n\ @param\ newX\ \ \ \ \ \ new\ x\ coordinate\ of\ center\n\ \n\ @param\ newY\ \ \ \ \ \ new\ y\ coordiante\ of\ center\n
+comment5.params=
+comment5.target=void\ powerUp()
+comment5.text=\n\ determines\ if\ the\ satellite\ should\ be\ upgraded\n\ will\ increase\ the\ shooting\ rate\ \n
+numComments=6

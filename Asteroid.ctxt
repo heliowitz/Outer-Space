@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=explodePower\ mass\ radius
+comment0.target=Asteroid(double,\ double,\ int)
+comment0.text=\n\ The\ constructor\ of\ the\ asteriod.\ Initializes\ the\ explode\ power.\n\ \n\ @param\ explodePower\n\ \ \ \ \ \ \ \ \ \ \ \ The\ destruction\ power\ an\ asteroid\ releases\ when\ explodes\n\ @param\ mass\n\ \ \ \ \ \ \ \ \ \ \ \ The\ mass\ of\ the\ asteroid\n\ @param\ radius\n\ \ \ \ \ \ \ \ \ \ \ \ The\ radius\ of\ collision(If\ planets\ go\ in\ this\ range,\ then\ the\n\ \ \ \ \ \ \ \ \ \ \ \ two\ will\ collide)\n
+comment1.params=explodePower\ resource\ mass\ radius
+comment1.target=Asteroid(double,\ double,\ double,\ int)
+comment1.text=\n\ Another\ constructor\ of\ the\ asteroid\ that\ takes\ in\ the\ initial\ resource\ of\n\ asteroid\n\ \n\ @param\ explodePower\n\ \ \ \ \ \ \ \ \ \ \ \ The\ destruction\ power\ an\ asteroid\ releases\ when\ explodes\n\ @param\ mass\n\ \ \ \ \ \ \ \ \ \ \ \ The\ mass\ of\ the\ asteroid\n\ @param\ resource\n\ \ \ \ \ \ \ \ \ \ \ \ The\ initialresource\ of\ the\ asteroid\n\ @param\ radius\n\ \ \ \ \ \ \ \ \ \ \ \ The\ radius\ of\ collision(If\ planets\ go\ in\ this\ range,\ then\ the\n\ \ \ \ \ \ \ \ \ \ \ \ two\ will\ collide)\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Act\ -\ do\ whatever\ the\ Asteroid\ wants\ to\ do.\ This\ method\ is\ called\n\ whenever\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment3.params=
+comment3.target=void\ checkRemove()
+comment4.params=
+comment4.target=void\ checkCollision()
+numComments=5

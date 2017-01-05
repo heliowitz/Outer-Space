@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=filename\ picX\ picY\ rowCt\ colCt
+comment0.target=greenfoot.GreenfootImage[]\ loadFrames(java.lang.String[],\ int[],\ int[],\ int[],\ int[])
+comment0.text=\n\ Makes\ use\ of\ BufferedImage's\ subImage\ method\ to\ extract\ from\ sprite\n\ sheets.\ Retrieved\ and\ compiled\ from\ two\ sources;\ one\ section\ extracts\n\ grid\ squares\ from\ a\ BufferedImage\ while\ the\ second\ converts\ it\ to\ a\n\ GreenfootImage\ for\ use.\ All\ arrays\ passed\ must\ be\ of\ equal\ length\ and\n\ correspond\ with\ each\ other\ by\ order\ of\ index.\n\ \n\ @param\ filename\n\ \ \ \ \ \ \ \ \ \ \ \ Picture\ file-paths.\n\ @param\ picX\n\ \ \ \ \ \ \ \ \ \ \ \ Widths\ per\ sprite\ in\ pixels.\n\ @param\ picY\n\ \ \ \ \ \ \ \ \ \ \ \ Heights\ per\ sprite\ in\ pixels.\n\ @param\ rowCt\n\ \ \ \ \ \ \ \ \ \ \ \ Numbers\ of\ rows\ to\ be\ extracted.\n\ @param\ colCt\n\ \ \ \ \ \ \ \ \ \ \ \ Numbers\ of\ columns\ to\ be\ extracted.\n\ @return\ GreenfootImage[]\ The\ compiled\ array\ of\ animation\ frames\n\ \ \ \ \ \ \ \ \ containing\ all\ frames\ from\ all\ images\ specified\ in\ parameters;\n\ \ \ \ \ \ \ \ \ null\ upon\ failure.\n
+comment1.params=fileName\ fontSize
+comment1.target=java.awt.Font\ loadFont(java.lang.String,\ int)
+comment1.text=\n\ Retrieves\ a\ Font\ from\ an\ external\ TrueType\ file.\n\ \n\ @param\ fileName\n\ \ \ \ \ \ \ \ \ \ \ \ The\ path\ to\ the\ TrueType\ file.\n\ @param\ fontSize\n\ \ \ \ \ \ \ \ \ \ \ \ The\ desired\ font\ size.\n\ @return\ Font\ The\ font\ from\ the\ file,\ null\ upon\ failure.\n
+numComments=2

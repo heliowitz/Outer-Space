@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ act()
+comment0.text=\n\ Act\ -\ do\ whatever\ the\ Celestialbodies\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment1.params=a\ b
+comment1.target=double\ getDistance(greenfoot.Actor,\ greenfoot.Actor)
+comment1.text=\n\ This\ is\ a\ method\ that\ gets\ distance\ between\ two\ actors\n\ \n\ @param\ a\ The\ first\ actor\n\ @param\ b\ The\ second\ actor\n\ @return\ double\ the\ distance\ between\ two\ actors\n
+comment2.params=
+comment2.target=double\ getMass()
+comment2.text=\n\ A\ method\ returns\ mass\n\ \n\ @return\ double\ The\ mass\n
+numComments=3

@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ act()
+comment0.text=\n\ Act\ -\ do\ whatever\ the\ CelestialBody\ wants\ to\ do.\ This\ method\ is\ called\n\ whenever\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment1.params=a\ b
+comment1.target=double\ getDistance(greenfoot.Actor,\ greenfoot.Actor)
+comment1.text=\n\ This\ is\ a\ method\ that\ gets\ distance\ between\ two\ actors\n\ \n\ @param\ a\n\ \ \ \ \ \ \ \ \ \ \ \ The\ first\ actor\n\ @param\ b\n\ \ \ \ \ \ \ \ \ \ \ \ The\ second\ actor\n\ @return\ double\ the\ distance\ between\ two\ actors\n
+comment2.params=
+comment2.target=double\ getMass()
+comment2.text=\n\ A\ method\ returns\ mass\n\ \n\ @return\ double\ The\ mass\n
+comment3.params=
+comment3.target=double\ getAttackPower()
+comment3.text=\n\ This\ method\ gets\ the\ current\ attacking\ power\ of\ the\ sun\n\ \n\ @return\ double\ The\ current\ attacking\ power\ of\ the\ sun\n
+comment4.params=percentage
+comment4.target=void\ reduceAttackPower(double)
+comment4.text=\n\ This\ method\ reduces\ the\ attack\ power\ to\ a\ certain\ specified\ percentage\n\ \n\ @param\ percentage\n\ \ \ \ \ \ \ \ \ \ \ \ The\ percentage\ to\ which\ the\ user\ wants\ the\ attack\ power\ to\n\ \ \ \ \ \ \ \ \ \ \ \ reduce\n
+comment5.params=exploit
+comment5.target=double\ exploit(double)
+comment5.text=\n\ This\ method\ gets\ resource\ from\ sun\ and\ returns\ the\ current\ value\ of\n\ natural\ resource\ to\ the\ user\ (parameter\ set\ to\ 0\ to\ get\ the\ current\ value\n\ of\ resource)\n\ \n\ @\ param\ exploit\ The\ amount\ of\ resource\ that\ is\ to\ be\ exploited\ @\ return\n\ double\ The\ remaining\ amout\ of\ resource\n\ \n
+comment6.params=percentage\ trueFalse
+comment6.target=double\ exploit(double,\ boolean)
+comment6.text=\n\ This\ method\ gets\ resource\ from\ sun\ (percentage\ instead\ of\ actual\ value)\n\ and\ returns\ the\ current\ value\ of\ natural\ resource\ to\ the\ user\n\ \n\ @param\ exploit\n\ \ \ \ \ \ \ \ \ \ \ \ The\ percentage\ of\ resource\ that\ is\ to\ be\ exploited\n\ @param\ trueFalse\n\ \ \ \ \ \ \ \ \ \ \ \ The\ boolean\ used\ to\ differentiate\ this\ method\ from\ the\ method\n\ \ \ \ \ \ \ \ \ \ \ \ above.\ User\ could\ input\ either\ true\ or\ false\n\ @return\ double\ The\ remaining\ amout\ of\ resource\n\ \n
+comment7.params=speed
+comment7.target=void\ setVelocity(Vector)
+comment7.text=\n\ This\ method\ initialized\ the\ velocity\ of\ the\ celestial\ body\n\ \n\ @param\ speed\n\ \ \ \ \ \ \ \ \ \ \ \ The\ vector\ that\ is\ intended\ to\ be\ used\ as\ the\ velocity\ of\ the\n\ \ \ \ \ \ \ \ \ \ \ \ celestial\ body\n
+numComments=8

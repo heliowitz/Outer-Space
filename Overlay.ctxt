@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=fadeOut
+comment0.target=Overlay(int)
+comment0.text=\n\ Constructs\ an\ Overlay.\n\ \n\ @param\ fadeOut\n\ \ \ \ \ \ \ \ \ \ \ \ Rate\ at\ which\ this\ Overlay\ should\ fade\ out\ after\ creation,\ as\n\ \ \ \ \ \ \ \ \ \ \ \ transparency\ decrease\ per\ frame.\ Negatives\ ignored.\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Runs\ every\ frame.\ Fades\ the\ Overlay\ out\ gradually\ after\ it\ has\ been\ added\n\ to\ the\ World\ and\ then\ destroys\ it.\n
+numComments=2

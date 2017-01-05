@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=owner
+comment0.target=Ship(Planet)
+comment0.text=\n\ Constructs\ a\ ship\ with\ an\ assigned\ home\ base\ of\ Planet\n\ \n\ @param\ owner\ \ \ \ \ the\ planet\ that\ the\ ship\ belongs\ to\n
+comment1.params=
+comment1.target=void\ shoot()
+comment1.text=\n\ Allows\ the\ ship\ to\ shoot\ enemies\n\ adds\ a\ missile\ to\ the\ world\ with\ the\ set\ rotation\ and\ location\n
+comment2.params=actor
+comment2.target=double\ getDistance(greenfoot.Actor)
+comment2.text=\n\ Calculates\ the\ distance\ between\ the\ actor\ and\ another\ actor\n\ \n\ @param\ actor\ \ \ \ \ the\ actor\ whos\ distance\ to\ calculate\ to\ \n\ \n\ @return\ double\ \ \ the\ hypotenuse\ between\ the\ two\ actors\n
+comment3.params=
+comment3.target=void\ missileCollision()
+comment3.text=\n\ Detects\ the\ collision\ of\ missiles\ with\ Ship\ actors\n\ will\ remove\ the\ missile\ after\ colliding\n\ will\ cause\ damage\ to\ the\ ship\ HP\n
+comment4.params=
+comment4.target=void\ checkHealth()
+comment4.text=\n\ Checks\ to\ see\ if\ the\ health\ is\ satisfactory\n\ if\ the\ health\ reach\ 0\ remove\ the\ ship\n
+comment5.params=
+comment5.target=void\ removeMe()
+comment5.text=\n\ removes\ the\ actor\ from\ the\ world\n
+comment6.params=range
+comment6.target=void\ detectEnemies(int)
+comment6.text=\n\ Finds\ a\ list\ of\ all\ Destroyers\ in\ a\ certain\ range\ \n\ Will\ utilize\ the\ getDistance()\ method\ in\ order\ to\ determine\ the\ closest\ actor\n\ Used\ to\ track\ which\ enemies\ should\ be\ attacked\n\ \n\ @param\ range\ \ \ \ \ the\ desired\ tracking\ radius\ for\ Destroyers\n
+comment7.params=
+comment7.target=Planet\ getOwner()
+comment7.text=\n\ Gets\ the\ owner\ in\ order\ to\ find\ out\ which\ planet\ is\ friendly\ and\ which\ aren't\n\ \n\ @return\ Planet\ \ \ the\ friendly\ planet\ \n
+numComments=8

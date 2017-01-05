@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=owner\ maxHP
+comment0.target=Destroyer(Planet,\ int)
+comment0.text=\n\ Constructs\ a\ Destroyer\ with\ a\ certain\ health\ and\ base\ planet\n\ \n\ @param\ owner\ \ \ \ \ the\ base\ planet\ that\ the\ Destroyer\ comes\ from\n\ \n\ @param\ maxHP\ \ \ \ \ the\ maximum\ HP\ the\ Destroyer\ can\ have\ \n
+comment1.params=w
+comment1.target=void\ addedToWorld(greenfoot.World)
+comment1.text=\n\ adds\ the\ hp\ to\ the\ chosen\ world\n\ \n\ @param\ w\ \ \ \ \ the\ chosen\ world\ to\ add\ the\ HealthBar\ to\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Will\ do\ whatever\ is\ necessary\ for\ the\ Destroyer\ to\ function\n\ Will\ manage\ the\ actions\ of\ the\ Destroyer\ once\ enemies\ are\ detected\n\ Checks\ for\ health,\ collisions,\ upgrades,\ and\ healing\n
+comment3.params=
+comment3.target=void\ detectTargets()
+comment3.text=\n\ detects\ all\ Planets\ in\ the\ range\ of\ 1500\ \n\ will\ assign\ closest\ Planet\ to\ the\ desired\ enemy\n\ Will\ be\ used\ by\ Destroyer\ to\ track\ that\ planet\n
+comment4.params=
+comment4.target=void\ detectSats()
+comment4.text=\n\ detects\ all\ Satellites\ in\ a\ range\ of\ 300\n\ will\ assign\ the\ closest\ Satellite\ to\ the\ desired\ object\n\ will\ be\ used\ by\ teh\ Destroyer\ to\ track\ that\ Satellite\n
+comment5.params=
+comment5.target=void\ powerUp()
+comment5.text=\n\ Controls\ if\ the\ Destroyer\ should\ be\ upgraded\ based\ on\ the\ civlization\ level\ of\ the\ base\ planet\n\ Will\ give\ the\ Destroyer\ the\ ability\ to\ heal\n\ Will\ change\ the\ appearance\ of\ the\ Destroyer\ \n
+numComments=6

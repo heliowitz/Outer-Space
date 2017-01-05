@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=x1\ y1\ x2\ y2
+comment0.target=double\ getAngle(double,\ double,\ double,\ double)
+comment0.text=\n\ Retrieves\ the\ angle\ of\ the\ second\ point\ relative\ to\ the\ first,\ in\n\ degrees.\ The\ positive\ x-axis\ is\ zero\ degrees,\ and\ the\ angle\ increases\n\ clockwise.\n\ \n\ @param\ x1\n\ \ \ \ \ \ \ \ \ \ \ \ The\ first\ point's\ x-coordinate.\n\ @param\ y1\n\ \ \ \ \ \ \ \ \ \ \ \ The\ first\ point's\ y-coordinate.\n\ @param\ x2\n\ \ \ \ \ \ \ \ \ \ \ \ The\ second\ point's\ x-coordinate.\n\ @param\ y2\n\ \ \ \ \ \ \ \ \ \ \ \ The\ second\ point's\ y-coordinate.\n\ @return\ double\ The\ angle\ of\ the\ second\ point\ relative\ to\ the\ first\ in\n\ \ \ \ \ \ \ \ \ degrees\ clockwise\ of\ the\ positive\ x-axis.\n
+comment1.params=num\ min\ max
+comment1.target=long\ correctToRange(long,\ long,\ long)
+comment1.text=\n\ Corrects\ a\ number\ to\ the\ nearest\ boundary\ of\ a\ specified\ range\ if\ it\ is\n\ out\ of\ range.\n\ \n\ @param\ num\n\ \ \ \ \ \ \ \ \ \ \ \ The\ number\ to\ be\ corrected.\n\ @param\ min\n\ \ \ \ \ \ \ \ \ \ \ \ The\ minimum\ boundary\ of\ the\ range.\n\ @param\ max\n\ \ \ \ \ \ \ \ \ \ \ \ The\ maximum\ boundary\ of\ the\ range.\n\ @return\ long\ The\ corrected\ value.\n
+comment2.params=num\ min\ max
+comment2.target=double\ correctToRangeWithExcess(double,\ double,\ double)
+comment2.text=\n\ Corrects\ a\ number\ so\ that\ it\ falls\ within\ a\ range,\ while\ maintaining\ the\n\ excess\ amount.\ If\ the\ number\ is\ greater\ than\ the\ maximum,\ the\ excess\ is\n\ added\ to\ the\ minimum.\ If\ it\ is\ less\ than\ the\ minimum,\ the\ excess\ is\n\ subtracted\ from\ the\ maximum.\ That\ is,\ the\ range\ becomes\ a\ circular\ loop,\n\ and\ if\ the\ number\ falls\ beyond\ one\ boundary,\ it\ continues\ from\ the\ other\n\ boundary\ such\ that\ it\ cannot\ leave\ the\ range.\n\ \n\ @param\ num\n\ \ \ \ \ \ \ \ \ \ \ \ The\ number\ to\ be\ corrected.\n\ @param\ min\n\ \ \ \ \ \ \ \ \ \ \ \ The\ minimum\ boundary\ of\ the\ range.\n\ @param\ max\n\ \ \ \ \ \ \ \ \ \ \ \ The\ maximum\ boundary\ of\ the\ range.\n\ @return\ double\ The\ corrected\ value.\n
+comment3.params=refs
+comment3.target=java.util.ArrayList\ cleanReferences(java.util.ArrayList)
+comment3.text=\n\ Cleans\ up\ a\ reference\ list\ of\ Actors\ by\ removing\ any\ who\ are\ no\ longer\ in\n\ a\ World\ and\ minimizing\ the\ size.\n\ \n\ @param\ refs\n\ \ \ \ \ \ \ \ \ \ \ \ The\ references\ to\ be\ cleaned.\n\ @return\ ArrayList<?\ extends\ Actor>\ The\ cleaned\ references.\n
+comment4.params=refs
+comment4.target=java.util.ArrayList\ clearReferences(java.util.ArrayList)
+comment4.text=\n\ Clears\ a\ reference\ list\ of\ Actors\ by\ removing\ all\ of\ them\ from\ the\ World\n\ and\ emptying\ it.\n\ \n\ @param\ refs\n\ \ \ \ \ \ \ \ \ \ \ \ The\ references\ to\ be\ cleared.\n\ @return\ ArrayList<?\ extends\ Actor>\ The\ empty\ reference\ list.\n
+numComments=5

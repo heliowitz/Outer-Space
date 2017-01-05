@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=rotation\ owner
+comment0.target=Missile(int,\ Planet)
+comment0.text=\n\ Constructs\ a\ missle\n\ \n\ @param\ rotation\ \ \ \ \ \ the\ specific\ rotation\ of\ the\ actor\ that\ the\ missile\ belongs\ to\n\ @param\ owner\ \ \ \ \ \ \ \ \ the\ specific\ planet\ that\ the\ missile\ will\ not\ affect\ as\ it\ is\ friendly\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Act\ will\ do\ whatever\ the\ Missile\ wants\ to\ do\n\ Will\ set\ the\ rotation\ to\ the\ correct\ angle\ \n\ Will\ check\ for\ the\ collision\ with\ unfriendly\ planets\n\ Will\ remove\ if\ necessary\ from\ the\ world\n
+comment2.params=
+comment2.target=boolean\ atWorldEdge()
+comment2.text=\n\ Checks\ to\ see\ if\ the\ Missile\ is\ at\ the\ edge\ of\ the\ world\n\ Will\ arrange\ to\ have\ the\ missile\ removed\ from\ the\ world\n\ \n\ @return\ boolean\ \ \ \ \ \ if\ missile\ is\ at\ the\ world\ or\ not\n
+comment3.params=
+comment3.target=void\ removeMe()
+comment3.text=\n\ Removes\ the\ missile\ from\ the\ world\n
+comment4.params=
+comment4.target=void\ checkRid()
+comment4.text=\n\ if\ atWorldEdge()\ returns\ as\ true,\ arranges\ to\ set\ remove\ to\ true\ \n\ will\ eventually\ have\ missile\ from\ the\ world\n
+comment5.params=
+comment5.target=Planet\ getOwnerMissile()
+comment5.text=\n\ Gets\ the\ friendly\ planet\ so\ that\ missiles\ wont\ harm\ friendlies\n\ \n\ @return\ Planet\ \ \ the\ friendly\ planet\n
+comment6.params=
+comment6.target=void\ checkPlanetCollision()
+comment6.text=\n\ Will\ check\ to\ see\ if\ the\ missile\ collides\ with\ an\ unfriendly\ Planet\n\ If\ so,\ will\ cause\ planet\ damage\ \n\ Will\ also\ set\ remove\ to\ true\ to\ have\ it\ removed\ from\ world\n
+numComments=7

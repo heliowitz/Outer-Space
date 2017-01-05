@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=resource\ mass
+comment0.target=Moon(double,\ double)
+comment0.text=\n\ The\ constructor\ of\ the\ moon\n\ \n\ @param\ resource\n\ \ \ \ \ \ \ \ \ \ \ \ The\ initial\ resource\ left\ for\ the\ moon\n\ @param\ mass\n\ \ \ \ \ \ \ \ \ \ \ \ The\ mass\ of\ the\ moon\n
+comment1.params=resource\ mass\ owner\ orbitRad
+comment1.target=Moon(double,\ double,\ CelestialBody,\ double)
+comment1.text=\n\ Another\ constructor\ of\ the\ moon,\ takes\ in\ the\ owner\ of\ the\ moon\n\ \n\ @param\ resource\n\ \ \ \ \ \ \ \ \ \ \ \ The\ initial\ resource\ left\ for\ the\ moon\n\ @param\ owner\n\ \ \ \ \ \ \ \ \ \ \ \ The\ owner\ of\ the\ moon\n\ @param\ mass\n\ \ \ \ \ \ \ \ \ \ \ \ The\ mass\ of\ the\ moon\n\ @param\ orbitRad\n\ \ \ \ \ \ \ \ \ \ \ \ The\ orbital\ radius\ of\ the\ moon.\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Act\ -\ do\ whatever\ the\ Moon\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment3.params=obj\ src\ ellipseDeg\ radX\ radY
+comment3.target=void\ orbit(greenfoot.Actor,\ greenfoot.Actor,\ double,\ double,\ double)
+numComments=4

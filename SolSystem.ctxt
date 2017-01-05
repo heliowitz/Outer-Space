@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=asteroidSpawnRate
+comment0.target=SolSystem(int)
+comment0.text=\n\ Constructs\ a\ SolSystem.\n\ \n\ @param\ asteroidSpawnRate\n\ \ \ \ \ \ \ \ \ \ \ \ The\ rate\ at\ which\ asteroids\ spawn,\ where\ probability\ of\n\ \ \ \ \ \ \ \ \ \ \ \ spawning\ each\ frame\ is\ 1/asteroidSpawnRate.\ Negatives\ ignored.\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Runs\ every\ frame.\ Checks\ for\ user\ commands\ to\ show\ data\ of\ any\ Planet,\n\ and\ plays\ music.\n
+comment2.params=a\ x\ y\ clss\ params\ init
+comment2.target=void\ spawn(greenfoot.Actor[],\ int[],\ int[],\ java.lang.Class,\ java.lang.Class[],\ java.lang.Object[])
+comment2.text=\n\ Brings\ a\ declared\ array\ of\ objects\ into\ the\ world.\ The\ lengths\ of\ a,\ x,\n\ and\ y\ must\ be\ equal.\n\ \n\ @param\ a\n\ \ \ \ \ \ \ \ \ \ \ \ The\ declared\ array\ of\ Actors;\ must\ have\ a\ set\ length.\n\ @param\ x\n\ \ \ \ \ \ \ \ \ \ \ \ The\ x\ coordinate\ of\ each\ Actor's\ spawn\ point.\n\ @param\ y\n\ \ \ \ \ \ \ \ \ \ \ \ The\ x\ coordinate\ of\ each\ Actor's\ spawn\ point.\n\ @param\ clss\n\ \ \ \ \ \ \ \ \ \ \ \ The\ class\ of\ the\ Actor.\n\ @param\ params\n\ \ \ \ \ \ \ \ \ \ \ \ The\ classes\ of\ the\ desired\ constructor's\ parameters,\ in\ order;\n\ \ \ \ \ \ \ \ \ \ \ \ null\ if\ no\ parameters;\n\ @param\ init\n\ \ \ \ \ \ \ \ \ \ \ \ The\ parameters\ to\ be\ passed\ to\ the\ desired\ constructor,\ in\n\ \ \ \ \ \ \ \ \ \ \ \ order,\ omit\ if\ none.\n
+comment3.params=
+comment3.target=void\ spawnAsteroid()
+comment3.text=\n\ Spawns\ an\ Asteroid\ every\ once\ in\ a\ while\ from\ within\ a\ certain\ off-screen\n\ region\ and\ directs\ it\ towards\ the\ solar\ system.\n
+comment4.params=txt
+comment4.target=void\ prompt(java.lang.String)
+comment4.text=\n\ Updates\ the\ world's\ designated\ main\ log\ with\ a\ message.\n\ \n\ @param\ txt\n\ \ \ \ \ \ \ \ \ \ \ \ The\ message\ to\ be\ displayed.\n
+comment5.params=x\ y
+comment5.target=void\ spawnAsteroidsAt(int,\ int)
+comment5.text=\n\ Spawns\ several\ asteroids\ at\ the\ given\ point\ with\ outwards\ velocity\n\ vectors,\ in\ an\ explosion\ type\ effect.\n\ \n\ @param\ x\n\ \ \ \ \ \ \ \ \ \ \ \ The\ x-coordinate\ of\ the\ spawn\ point.\n\ @param\ y\n\ \ \ \ \ \ \ \ \ \ \ \ The\ y-coordinate\ of\ the\ spawn\ point.\n
+numComments=6
